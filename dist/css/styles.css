@@ -7457,3 +7457,9 @@ hr.divider {
 
 .c-portfolio figure {
   margin: 0; }
+
+.c-portfolio__mobile-center {
+  text-align: center; }
+  @media (min-width: 768px) {
+    .c-portfolio__mobile-center {
+      text-align: left; } }
