@@ -7260,6 +7260,22 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+.theme7 {
+  border: none !important; }
+  .theme7 button {
+    background-color: #ef727a !important;
+    border-color: #ef727a !important;
+    padding: .375rem 1rem !important;
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    height: auto !important; }
+    .theme7 button:hover {
+      background-color: #eb505a !important;
+      border-color: #ea444f !important; }
+
+.form-view {
+  font-family: inherit !important; }
+
 .bg-dark {
   background-color: #000 !important; }
 

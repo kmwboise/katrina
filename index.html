@@ -154,14 +154,124 @@
                         <p class="text-center mx-md-5"> Do you have a project in mind? Do you need updates to your current site? Let me help with any of your web needs. Just get in touch.</p>
                         <div class="row justify-content-center">
                             <div class="col-sm-12 col-md-7">
-                                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-                                <script>
-                                    hbspt.forms.create({
-                                        portalId: "4566198",
-                                        formId: "8f88a1d5-3403-4750-abfb-933b30ad2e99"
-                                    });
+                                <link href="https://d1gwclp1pmzk26.cloudfront.net/agile/forms/v1/agile-form-min.css" rel="stylesheet">
+                                <form class="form-view theme7" id="agile-form" action="https://katrinaschwark.agilecrm.com/formsubmit" method="GET">
+                                    <fieldset>
+
+                                        <!-- Form Name -->
+                                        <legend class="agile-hide-formname">Contact Form</legend>
+                                        <p class="agile-form-description"></p>
+                                        <div style="display: none; height: 0px; width: 0px;">
+                                            <input type="hidden" id="_agile_form_name" name="_agile_form_name" value="Contact Form">
+                                            <input type="hidden" id="_agile_domain" name="_agile_domain" value="katrinaschwark">
+                                            <input type="hidden" id="_agile_api" name="_agile_api" value="v6mhh0oascd9d7f5g3nbrhfvko">
+                                            <input type="hidden" id="_agile_redirect_url" name="_agile_redirect_url" value="#">
+                                            <input type="hidden" id="_agile_document_url" name="_agile_document_url" value="">
+                                            <input type="hidden" id="_agile_confirmation_msg" name="_agile_confirmation_msg" value="Thank you! I have received your form and will get back to you shortly!">
+                                            <input type="hidden" id="_agile_form_id_tags" name="tags" value="">
+
+                                            <input type="hidden" id="_agile_form_id" name="_agile_form_id" value="5664902681198592">
+                                        </div>
+                                        <!-- Text input-->
+                                        <div class="agile-group required-control">
+                                            <label class="agile-label" for="agilefield-6">Name<span class="agile-span-asterisk"> *</span></label>
+                                            <div class="agile-field-xlarge agile-field">
+                                                <input maxlength="250" id="agilefield-6" name="first_name" type="text" placeholder="" class="agile-height-default" required="">
+                                            </div>
+                                            <div class="agile-custom-clear"></div>
+                                        </div>
+                                        <!-- Text input-->
+                                        <div class="agile-group required-control">
+                                            <label class="agile-label" for="agilefield-9">Email<span class="agile-span-asterisk"> *</span></label>
+                                            <div class="agile-field-xlarge agile-field">
+                                                <input maxlength="250" id="agilefield-9" name="email" type="email" placeholder="" class="agile-height-default" required="">
+                                            </div>
+                                            <div class="agile-custom-clear"></div>
+                                        </div>
+                                        <!-- Multiple Checkboxes (inline) -->
+                                        <div class="agile-group agile-form-multicheckboxes">
+                                            <label class="agile-label" for="inline_checkboxes_1486383576618">What products are you interested in?</label>
+                                            <div class="agile-field agile-field-xlarge agile-height-default">
+                                                <label for="inline_checkboxes_1486383576618-0" class="i-checks">
+                                                  <input type="checkbox" name="note" id="inline_checkboxes_1486383576618-0" value="Wordpress Theme Setup"><i></i>
+                                                  Wordpress Theme Setup
+                                                </label>
+                                                <label for="inline_checkboxes_1486383576618-1" class="i-checks">
+                                                  <input type="checkbox" name="note" id="inline_checkboxes_1486383576618-1" value="Website Maintenance"><i></i>
+                                                  Website Maintenance
+                                                </label>
+                                                <label for="inline_checkboxes_1486383576618-2" class="i-checks">
+                                                  <input type="checkbox" name="note" id="inline_checkboxes_1486383576618-2" value="Website Design &amp; Development"><i></i>
+                                                  Website Design &amp; Development
+                                                </label>
+                                                <label for="inline_checkboxes_1486383576618-3" class="i-checks">
+                                                  <input type="checkbox" name="note" id="inline_checkboxes_1486383576618-3" value="Domain/Hosting"><i></i>
+                                                  Domain/Hosting
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <!-- Textarea -->
+                                        <div class="agile-group">
+                                            <label class="agile-label" for="agilefield-10">Please let us know any comments or questions that you might have.</label>
+                                            <div class="agile-field-xlarge agile-field">
+                                                <textarea maxlength="250" id="agilefield-10" name="note" placeholder="" class="agile-height-default"></textarea>
+                                            </div>
+                                            <div class="agile-custom-clear"></div>
+                                        </div>
+
+                                        <!--recaptcha aglignment-->
+                                        <div class="agile-group"><label class="agile-label"></label>
+                                            <div class="agile-field-xlarge agile-field">
+                                                <div class='g-recaptcha' style="transform:scale(0.91);-webkit-transform:scale(0.91);transform-origin:0 0;-webkit-transform-origin:0 0; width='304px';" data-sitekey='6LdHMF0UAAAAAKUXM_-Z06PvcCx5aIiD-ectFe9z' data-callback='agileGCaptchaOnSuccess'></div>
+                                            </div>
+                                        </div>
+                                        <!-- Button -->
+                                        <div class="agile-group">
+                                            <label class="agile-label">&nbsp;</label>
+                                            <div class="agile-field agile-button-field">
+                                                <button type="submit" class="agile-button">Submit</button>
+                                                <br><span id="agile-error-msg"></span>
+                                            </div>
+                                        </div>
+
+                                    </fieldset>
+                                </form>
+                                <script id="gRecaptchaSrc" src='https://www.google.com/recaptcha/api.js'></script>
+                                <script type="text/javascript">
+                                    (function(a) {
+                                        var b = a.onload,
+                                            p = true;
+                                        isCaptcha = true;
+                                        if (p) {
+                                            a.onload = "function" != typeof b ? function() {
+                                                try {
+                                                    _agile_load_form_fields()
+                                                } catch (a) {}
+                                            } : function() {
+                                                b();
+                                                try {
+                                                    _agile_load_form_fields()
+                                                } catch (a) {}
+                                            }
+                                        };
+                                        var formLen = document.forms.length;
+                                        for (i = 0; i < formLen; i++) {
+                                            if (document.forms.item(i).getAttribute("id") == "agile-form") {
+                                                a.document.forms.item(i).onsubmit = function(a) {
+                                                    a.preventDefault();
+                                                    try {
+                                                        _agile_synch_form_v5(this)
+                                                    } catch (b) {
+                                                        this.submit()
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    })(window);
 
                                 </script>
+
                             </div>
                         </div>
                     </div>
@@ -185,7 +295,19 @@
             </div>
         </div>
     </footer>
+    <script id="_agile_min_js" async type="text/javascript" src="https://katrinaschwark.agilecrm.com/stats/min/agile-min.js">
 
+
+    </script>
+    <script type="text/javascript">
+        var Agile_API = Agile_API || {};
+        Agile_API.on_after_load = function() {
+            _agile.set_account('v6mhh0oascd9d7f5g3nbrhfvko', 'katrinaschwark', false);
+            _agile.track_page_view();
+            _agile_execute_web_rules();
+        };
+
+    </script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
     <script src="dist/js/main.js"></script>
