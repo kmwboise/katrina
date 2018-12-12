@@ -1,6 +1,8 @@
 # Ignore files #
 gulpfile.js
 node_modules/
+_OLD/
+_DESIGN-FILES/
 package-lock.json
 package.json
 src/css
