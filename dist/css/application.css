@@ -8393,10 +8393,11 @@ h2.double {
     .navbar .nav-item .nav-link:hover {
       color: #d9d9d9; }
 
-#home .nav-item .nav-link {
-  color: var(--primary); }
-  #home .nav-item .nav-link:hover {
-    color: #d9d9d9; }
+@media (min-width: 768px) {
+  #home .nav-item .nav-link {
+    color: var(--primary); }
+    #home .nav-item .nav-link:hover {
+      color: #d9d9d9; } }
 
 nav.mobile-navigation .top-navigation {
   background-color: rgba(255, 255, 255, 0.8);
