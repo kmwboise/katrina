@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
-    <url>
-        <loc>http://www.talentspark.com</loc>
-    </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://www.katrinaschwark.com/</loc>
+    <lastmod>2018-12-26</lastmod>
+  </url>
+  <url>
+    <loc>http://www.katrinaschwark.com/about.html</loc>
+    <lastmod>2018-12-26</lastmod>
+  </url>
+  <url>
+    <loc>http://www.katrinaschwark.com/work-with-me.html</loc>
+    <lastmod>2018-12-26</lastmod>
+  </url>
+  <url>
+    <loc>http://www.katrinaschwark.com/maintenance.html</loc>
+    <lastmod>2018-12-26</lastmod>
+  </url>
+  <url>
+    <loc>http://www.katrinaschwark.com/contact.html</loc>
+    <lastmod>2018-12-26</lastmod>
+  </url>
 </urlset>
